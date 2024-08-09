@@ -35,7 +35,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 75px;
   padding-top: 150px;
   padding-bottom: 150px;
 }
@@ -91,7 +90,7 @@
   .reviews-box {
     width: 335px;
     height: 207px;
-    margin-bottom: auto;
+    margin-bottom: 40px;
     gap: inherit;
   }
 }
