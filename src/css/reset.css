@@ -33,3 +33,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fbfbfb;
+  background-color: rgba(4, 3, 6, 1);
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
