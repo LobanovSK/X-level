@@ -1,4 +1,4 @@
-/* Reset styles */
+/* Reset styles *//**
 h1,
 h2,
 h3,
@@ -36,7 +36,7 @@ img {
 body {
   font-family: 'Inter', sans-serif;
   color: #fbfbfb;
-  background-color: rgba(4, 3, 6, 1);
+  background-color: rgba(4, 3, 6, 1);*/
 }
 .container {
   margin: 0 auto;
