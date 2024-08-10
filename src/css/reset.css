@@ -1,4 +1,5 @@
-/* Reset styles *//**
+/***Reset styles 
+
 h1,
 h2,
 h3,
@@ -36,9 +37,30 @@ img {
 body {
   font-family: 'Inter', sans-serif;
   color: #fbfbfb;
-  background-color: rgba(4, 3, 6, 1);*/
+  background-color: rgba(4, 3, 6, 1);
 }
 .container {
   margin: 0 auto;
   max-width: 1440px;
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
 }
+body {
+  font-family: 'Inter', sans-serif;
+  color: #434455;
+  background-color: #0e1823;
+  font-size: 16px;
+  margin: 
+}
+***/
