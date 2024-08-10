@@ -1,19 +1,19 @@
-/* .hero {
-    height: 812px;
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
-.herro {
-    background-color: aqua;
-    border-radius: 14px;
-    width: 375px;
-    height: 812px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+
+body {
+  background-color: #0e1823;
+}
 
 .about {
   margin: 0 auto;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   margin-top: -60px;
+
 }
 
 .container-about {
@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 768px) {
   .about {
-    padding-bottom: 150px;
+    margin-bottom: 150px;
     margin-top: -67px;
   }
 
@@ -91,7 +91,7 @@
   }
 
   .about-paragraph-text {
-    padding: 50px 136px 224px 32px;
+    padding: 50px 136px 244px 32px;
     width: 704px;
   }
 
@@ -120,7 +120,7 @@
 
 @media screen and (min-width: 1280px) {
   .about {
-    padding-bottom: 150px;
+    margin-bottom: 150px;
     margin-top: -35px;
   }
 
@@ -144,7 +144,7 @@
     transform: translate(49px, -338px);
   }
 
-  /* .about-title {
-        width: 537;
-    } */
+  .about-title {
+    width: 537px;
+  }
 }
