@@ -220,7 +220,17 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .footer-text {
+  .footer-text-one {
     max-width: 699px;
+  }
+
+  .footer-list:hover,
+  .footer-list:focus {
+    background: #fbfbfb;
+  }
+
+  .footer-link:hover,
+  .footer-link:focus {
+    color: #1b414b;
   }
 }
