@@ -57,7 +57,6 @@ ol {
   overflow: hidden;
 }
 .advantages {
-  background-color: #040306;
   padding-bottom: 80px;
 }
 .advantages-container {
@@ -85,7 +84,6 @@ ol {
   gap: 18px;
 }
 .advantages-number {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -101,7 +99,6 @@ ol {
 }
 
 .advantages-text {
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
