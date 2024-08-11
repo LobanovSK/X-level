@@ -1,2 +1,12 @@
+<<<<< rent_a_yacht
 https://github.com/LobanovSK/X-level/pull/11
 https://github.com/LobanovSK/X-level/pull/17
+=======
+https://github.com/LobanovSK/X-level/pull/3
+<<< hero
+https://github.com/LobanovSK/X-level/pull/5
+=======
+
+https://github.com/LobanovSK/X-level/pull/8 
+>>>> main
+>>>>>> main
