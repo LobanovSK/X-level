@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: "Inter", sans-serif;
     color: #fbfbfb;
     background-color: #0E1823;
@@ -39,18 +39,17 @@ button {
 
 a {
     text-decoration: none;
-} */
+}
 
-/* common */
+/* section */
 
-/* .container {
+.rent-container {
     width: 100%;
     max-width: 320px;
     padding: 0 20px;
     margin: 0 auto;
-} */
+}
 
-/* section */
 .rent-box {
     margin-bottom: 80px;
 }
@@ -142,20 +141,21 @@ a {
 }
 
 @media screen and (min-width:768px) {
-    .rent-box {
+    /* .rent-box {
         margin-bottom: 150px;
-    }
+    } */
 
     .rent-container {
-        margin: 0 auto;
-        min-width: 473px;
+        max-width: 473px;
     }
 
     .rent-title {
         font-size: 48px;
+        width: 381px;
     }
 
     .rent-form {
+        min-width: 473px;
         margin-bottom: 100px;
     }
 
@@ -198,9 +198,11 @@ a {
         gap: 50px;
         width: 1180px;
         padding: 0 50px;
+        margin: 0 auto;
     }
 
     .rent-form {
+        min-width: 472px;
         margin-bottom: 0;
     }
 
