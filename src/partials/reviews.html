@@ -1,48 +1,131 @@
-        <section class="reviews-section" id="reviews">
-    <div class="reviews-container">
-        <div class="reviews-box">
-    <h2 class="reviews-title">
+<!-- **************** Reviews *************** -->
+<section class="reviews-section" id="reviews">
+  <div class="reviews-container">
+    <div class="reviews-box">
+      <h2 class="reviews-title">
         YachtJet take pride in providing the best possible service and
         experience to our customers
-    </h2>
-        <p class="reviews-description">
+      </h2>
+      <p class="reviews-description">
         Our customers have enjoyed unforgettable moments on our yachts. Don't
         just take our word for it - read on to find out what they have to say
         about their journey with us.
-        </p>
+      </p>
     </div>
     <ul class="reviews-list">
-        <li class="reviews-items">
-          <img 
-          class="reviews-foto"
-          srcset="/img/reviews/John@1x.jpg 1x, /img/reviews/John@2x.jpg 2x"
-          src="/img/reviews/John.jpg" 
-          alt="John Wax"
-          width="56">
-        </img>
+      <li class="reviews-items">
+        <picture>
+          <source
+            srcset="
+              ./img/reviews/john-1440-1x.jpg 1x,
+              ./img/reviews/john-1440-2x.jpg 2x
+            "
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/john-1280-1x.jpg 1x,
+              ./img/reviews/john-1280-2x.jpg 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/john-tab-1x.jpg 1x,
+              ./img/reviews/john-tab-2x.jpg 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/john-mob-1x.jpg 1x,
+              ./img/reviews/john-mob-2x.jpg 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img
+            class="reviews-foto"
+            src="./img/reviews/john-mob-1x.jpg"
+            alt="John Wax"
+            width="56"
+          />
+        </picture>
+
         <h3 class="reviews-h3">John Wax</h3>
-            <p class="reviews-text">I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was spacious, comfortable, and luxurious, and the crew took care of everything.</p>
-        </li>
-        <li class="reviews-items-one">
-          <img class="reviews-foto"
-          srcset="/img/reviews/Victoria@1x.jpg 1x, /img/reviews/Victoria@2x.jpg 2x"
-          src="/img/reviews/Victorya.jpg" 
-          alt="Victoria Romashenko"
-          width="56">
-        </img>
+        <p class="reviews-text">
+          I rented the Lagoon 620 with my family for a week-long vacation and it
+          was the best decision ever. The yacht was spacious, comfortable, and
+          luxurious, and the crew took care of everything.
+        </p>
+      </li>
+      <li class="reviews-items-one">
+        <picture>
+          <source
+            srcset="
+              ./img/reviews/victoria-1440-1x.jpg 1x,
+              ./img/reviews/victoria-1440-2x.jpg 2x
+            "
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/victoria-1280-1x.jpg 1x,
+              ./img/reviews/victoria-1280-2x.jpg 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/victoria-tab-1x.jpg 1x,
+              ./img/reviews/victoria-tab-2x.jpg 2x
+            "
+            media="(min-width:768px)"
+          />
+          <img
+            class="reviews-foto"
+            src="./img/reviews/victoria-tab-1x.jpg"
+            alt="Victoria Romashenko"
+            width="56"
+          />
+        </picture>
+
         <h3 class="reviews-h3">Victoria Romashenko</h3>
-            <p class="reviews-text">The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly.</p>
-        </li>
-        <li class="reviews-items-two">
-          <img class="reviews-foto"
-          srcset="/img/reviews/Ihor@1x.jpg 1x, /img/reviews/Ihor@2x.jpg 2x"
-          src="/img/reviews/Ihor.jpg" 
-          alt="Ihor Trachuk"
-          width="56"> 
-        </img>
+        <p class="reviews-text">
+          The Sunseeker Manhattan 66 was the perfect choice for our romantic
+          getaway. The yacht was beautifully designed, with all the amenities we
+          needed, and the crew was attentive and friendly.
+        </p>
+      </li>
+      <li class="reviews-items-two">
+        <picture>
+          <source
+            srcset="
+              ./img/reviews/Ihor-1440-1x.jpg 1x,
+              ./img/reviews/Ihor-1440-2x.jpg 2x
+            "
+            media="(min-width:1440px)"
+          />
+          <source
+            srcset="
+              ./img/reviews/Ihor-1280-1x.jpg 1x,
+              ./img/reviews/Ihor-1280-2x.jpg 2x
+            "
+            media="(min-width:1280px)"
+          />
+          <img
+            class="reviews-foto"
+            src="./img/reviews/Ihor-1280-1x.jpg"
+            alt="Ihor Trachuk"
+            width="56"
+          />
+        </picture>
         <h3 class="reviews-h3">Ihor Trachuk</h3>
-            <p class="reviews-text-two">The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!</p>
-          </li>
-        </ul>
-      </div> 
-    </section>
+        <p class="reviews-text-two">
+          The Azimut 80 was the most luxurious yacht I've ever been on. The
+          cabins were spacious and elegant, and the outdoor areas were perfect
+          for relaxing and entertaining. Worth every penny!
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
