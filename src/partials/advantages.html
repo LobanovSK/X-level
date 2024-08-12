@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project HTML+CSS</title>
+    <link rel="stylesheet" href="./scc/styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <!-- *****************Advantages**************** -->
+      <section class="advantages">
+        <div class="advantages-container">
+          <h2 class="visually-hidden">Tinle</h2>
+          <div class="advantages-list-box">
+            <ol class="advantages-list">
+              <li class="advantages-item">
+                <p class="advantages-number">01</p>
+                <hr class="advantages-line" />
+                <p class="advantages-text">
+                  Swimming and water sports: try your
+                  <br class="advantages-text-br" />
+                  hand at water skiing
+                </p>
+              </li>
+              <li class="advantages-item advantages-item-second">
+                <p class="advantages-number">02</p>
+                <hr class="advantages-line" />
+                <p class="advantages-text">
+                  Fishing: try to catch your own dinner
+                </p>
+              </li>
+              <li class="advantages-item">
+                <p class="advantages-number">03</p>
+                <hr class="advantages-line" />
+                <p class="advantages-text">
+                  Sightseeing tours: take a shore or island tour,
+                  <br class="advantages-text-br" />
+                  enjoy the views and sunsets from the water
+                </p>
+              </li>
+              <li class="advantages-item advantages-item-fourth">
+                <p class="advantages-number">04</p>
+                <hr class="advantages-line" />
+                <p class="advantages-text">
+                  Rest and relaxation: read a book or listen to
+                  <br class="advantages-text-br" />
+                  music while enjoying the outdoor atmosphere.
+                </p>
+              </li>
+            </ol>
+          </div>
+          <div class="advantages-picture-box">
+            <picture class="advantages-picture">
+              <source
+                srcset="
+                  ./img/advantages/advantages-d1440-1x.jpg 1x,
+                  ./img/advantages/advantages-d1440-2x.jpg 2x
+                "
+                media="(min-width:1440px)"
+              />
+              <source
+                srcset="
+                  ./img/advantages/advantages-d1280-1x.jpg 1x,
+                  ./img/advantages/advantages-d1280-2x.jpg 2x
+                "
+                media="(min-width:1280px)"
+              />
+              <source
+                srcset="
+                  ./img/advantages/advantages-tab-1x.jpg 1x,
+                  ./img/advantages/advantages-tab-2x.jpg 2x
+                "
+                media="(min-width:768px)"
+              />
+              <source
+                srcset="
+                  ./img/advantages/advantages-mob-1x.jpg 1x,
+                  ./img/advantages/advantages-mob-2x.jpg 2x
+                "
+                media="(max-width:767px)"
+              />
+              <img
+                class="advantages-img"
+                src="./img/advantages/advantages-mob-1x.jpg"
+                alt="advantages"
+                width="540"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
