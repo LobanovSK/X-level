@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: "Inter", sans-serif;
     color: #fbfbfb;
     background-color: #0E1823;
@@ -39,18 +39,21 @@ button {
 
 a {
     text-decoration: none;
-}
+} */
 
 /* common */
 
-.container {
+/* .container {
     width: 100%;
     max-width: 320px;
     padding: 0 20px;
     margin: 0 auto;
-}
+} */
 
 /* section */
+.rent-box {
+    margin-bottom: 80px;
+}
 
 .rent-title {
     font-weight: 500;
@@ -100,6 +103,7 @@ a {
     color: #fbfbfb;
     outline: transparent;
     padding: 14px 18px;
+    resize: none;
 }
 
 .rent-textarea:focus, .rent-textarea:hover {
@@ -138,6 +142,10 @@ a {
 }
 
 @media screen and (min-width:768px) {
+    .rent-box {
+        margin-bottom: 150px;
+    }
+
     .rent-container {
         margin: 0 auto;
         min-width: 473px;
@@ -188,7 +196,7 @@ a {
         justify-content: center;
         flex-direction: row-reverse;
         gap: 50px;
-        min-width: 1180px;
+        width: 1180px;
         padding: 0 50px;
     }
 
@@ -209,7 +217,7 @@ a {
 
 @media screen and (min-width:1440px) {
     .rent-box {
-        min-width: 1290px;
+        width: 1290px;
         justify-content: flex-end;
     }
 
