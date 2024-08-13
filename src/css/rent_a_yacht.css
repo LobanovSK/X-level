@@ -45,18 +45,18 @@ a {
 
 .rent-section {
     margin-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .rent-container {
-    max-width: 375px;
+    max-width: 335px;
     width: 100%;
     margin: 0 auto;
 }
 
 .rent-box {
     margin: 0 auto;
-    padding: 0 20px;
-    min-width: 320px;
     max-width: 375px;
     width: 100%;
 }
@@ -72,10 +72,12 @@ a {
 
 .rent-form {
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .rent-form-container {
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .rent-input {
@@ -148,12 +150,20 @@ a {
 }
 
 @media screen and (min-width:768px) {
+
+    .rent-box{
+        max-width: 704px;
+        width: 704px;
+    }
     .rent-section {
         margin-bottom: 150px;
+        padding-left: 0;
     }
 
     .rent-container {
-        min-width: 509px;
+        max-width: 472px;
+        width: 472px;
+        margin: 0 auto;
     }
 
     .rent-title {
@@ -200,11 +210,12 @@ a {
     .rent-box {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         gap: 50px;
         flex-direction: row-reverse;
         width: 1180px;
-        padding-left: 50px;
+        padding-left: 0;
+        max-width: 1180px;
     }
 
     .rent-form {
@@ -213,6 +224,7 @@ a {
     }
 
     .rent-container {
+        width: 472px;
         margin: 0;
         padding: 0;
     }
@@ -222,14 +234,17 @@ a {
         height: 536px;
         padding: 0;
     }
+
+    
 }
 
 @media screen and (min-width:1440px) {
     .rent-box {
+        max-width: 1290px;
         width: 1290px;
-        justify-content: flex-end;
         padding-left: 0;
     }
+
 
     .rent-img {
         min-width: 768px;
