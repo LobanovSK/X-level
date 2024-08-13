@@ -69,3 +69,6 @@ hr {
   border-color: transparent;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
