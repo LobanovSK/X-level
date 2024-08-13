@@ -19,7 +19,6 @@
   pointer-events: none;
   min-width: 320px;
   max-width: 375px;
-  height: 812px;
   margin: 0 auto;
 }
 .mob-menu.is-open {
