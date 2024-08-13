@@ -192,7 +192,15 @@ a {
 
     .rent-img {
         min-width: 704px;
+        width: 704px;
         height: 534px;
+    }
+
+    .rent-box{
+        max-width: 704px;
+        width: 704px;
+        margin: 0 auto;
+        padding: 0;
     }
 }
 
@@ -226,6 +234,7 @@ a {
 
 @media screen and (min-width:1440px) {
     .rent-box {
+        max-width: 1290px;
         width: 1290px;
         justify-content: flex-end;
         padding-left: 0;
