@@ -16,9 +16,12 @@ body {
 }
 
 .container-about {
-  width: 375px;
+  max-width: 375px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-paragraph-text {
@@ -26,7 +29,7 @@ body {
   padding: 40px 20px 335px 20px;
   border-radius: 24px;
   margin: 0 auto;
-  width: 335px;
+  width: 100%;
 }
 
 .about-title {
@@ -68,7 +71,8 @@ body {
 
 .picture-about {
   position: absolute;
-  transform: translate(20px, -292px);
+  transform: translate(0px, -292px);
+  width: calc(100% - 40px);
 }
 
 .about-img {
@@ -86,6 +90,7 @@ body {
   }
 
   .container-about {
+    max-width: 768px;
     width: 768px;
   }
 
@@ -113,7 +118,7 @@ body {
   }
 
   .picture-about {
-    transform: translate(32px, -194px);
+    transform: translate(12px, -194px);
   }
 }
 
@@ -124,6 +129,7 @@ body {
   }
 
   .container-about {
+    max-width: 1280px;
     width: 1280px;
   }
 
@@ -131,7 +137,7 @@ body {
     display: flex;
     gap: 189px;
     padding: 50px 50px 415px 50px;
-    width: 1180px;
+    width: 1179px;
   }
 
   .about-paragraph-box {
@@ -140,7 +146,7 @@ body {
   }
 
   .picture-about {
-    transform: translate(49px, -338px);
+    transform: translate(30px, -338px);
   }
 
   .about-title {
