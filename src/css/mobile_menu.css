@@ -21,6 +21,12 @@
   max-width: 375px;
   margin: 0 auto;
 }
+@media (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
 .mob-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -33,7 +39,6 @@
 .mob-menu-logo {
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  width: 335px;
   height: 42px;
   background-color: #fbfbfb;
   padding: 7px 20px;
