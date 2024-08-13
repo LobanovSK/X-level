@@ -4,10 +4,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 20px;
+  width: 100%;
+  max-width: 375px;
 }
 .header-container {
   min-width: 335px;
   max-width: 375px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .header-div {
   padding: 7px 20px;
@@ -65,6 +70,7 @@
 @media screen and (min-width: 768px) {
   .header {
     margin-top: 32px;
+    max-width: 768px;
   }
   .header-container {
     width: 768px;
@@ -129,6 +135,10 @@
 }
 /*DECSTOP_1280*/
 @media screen and (min-width: 1280px) {
+
+  .header{
+    max-width: 1280px;
+  }
   .header-container {
     width: 1280px;
     padding-left: 100px;
@@ -155,7 +165,12 @@
 }
 /*DECSTOP_1440*/
 @media screen and (min-width: 1440px) {
+
+  .header{
+    max-width: 1440px;
+  }
   .header-container {
     width: 1440px;
   }
 }
+
